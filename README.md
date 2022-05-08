@@ -38,6 +38,20 @@ Both models involved the use of diffusion to create generated images but there a
 
 I specifically chose these two models as from previous experience, they are efficent in producing outputs that fitted the textual prompts. I also experimented with other GANs such as BigGAN, StyleGAN, and BigSleepGAN and those two diffusion models worked the best from initial testing.
 
+I also have the prompts for each of the six constructions for the Seven Ancient Wonders of the World that I will use as an input for the diffusion models:
+- **Hanging Gardens of Babylon:**
+> An ancient stone building with multi-level terraces covered with exotic trees and plants 
+- **Statue of Zeus at Olympia:**
+> A marble temple with a statue of a man made out of ivory and gold with a scepter
+- **Temple of Artemis at Ephesus:**
+> An ancient greek temple made of white marble with various pillars and beautiful carvings
+- **Mausoleum at Halicarnassus:**
+> A tall ancient marble tomb monument with a stone staircase with a square base and pillars
+- **Colossus of Rhodes:**
+> A tall, ancient bronze statue on top of a marble pedestal overlooking a pier
+- **Lighthouse of Alexandria:**
+> A tall, ancient stone and limestone lighthouse overlooking an ancient harbor
+
 ## Code
 
 <!--Your code for generating your project:
@@ -45,6 +59,9 @@ I specifically chose these two models as from previous experience, they are effi
 - Jupyter notebooks: generative_code.ipynb -->
 - [CC12M Model](https://colab.research.google.com/drive/1TBo4saFn1BCSfgXsmREFrUl3zSQFg6CC)
 - [Clip Guided Diffusion Model](https://colab.research.google.com/drive/1V66mUeJbXrTuQITvJunvnWVn96FEbSI3)
+
+(The CLIP Guided Diffusion Model is also linked in the files)
+[CLIP Guided Diffusion Code](https://github.com/unl-ml-art/generative-visual-eher78/blob/master/clipGuidedDiffusion.ipynb)
 
 ## Results
 
