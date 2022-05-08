@@ -43,8 +43,8 @@ I specifically chose these two models as from previous experience, they are effi
 <!--Your code for generating your project:
 - Python: generative_code.py
 - Jupyter notebooks: generative_code.ipynb -->
--[CC12M Code](https://colab.research.google.com/drive/1TBo4saFn1BCSfgXsmREFrUl3zSQFg6CC)
--[Clip Guided Diffusion](https://colab.research.google.com/drive/1V66mUeJbXrTuQITvJunvnWVn96FEbSI3)
+- [CC12M Code](https://colab.research.google.com/drive/1TBo4saFn1BCSfgXsmREFrUl3zSQFg6CC)
+- [Clip Guided Diffusion](https://colab.research.google.com/drive/1V66mUeJbXrTuQITvJunvnWVn96FEbSI3)
 
 ## Results
 
