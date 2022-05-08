@@ -78,33 +78,43 @@ The upscale image code was used for the results to have a better resolution and 
 
 - **Statue of Zeus at Olympia:**
 > A marble temple with a statue of a man made out of ivory and gold with a scepter
-
+![Zeus Result](https://github.com/unl-ml-art/generative-visual-eher78/blob/master/sevenWondersResults/upscaleImages/zeus3_out.png)
 
 - **Temple of Artemis at Ephesus:**
 > An ancient greek temple made of white marble with various pillars and beautiful carvings
-
+![Artemis Result](https://github.com/unl-ml-art/generative-visual-eher78/blob/master/sevenWondersResults/upscaleImages/artemis1_out.png)
 
 - **Mausoleum at Halicarnassus:**
 > A tall ancient marble tomb monument with a stone staircase with a square base and pillars
-
+![Mausoleum Result](https://github.com/unl-ml-art/generative-visual-eher78/blob/master/sevenWondersResults/upscaleImages/mauseloeum1_out.png)
 
 - **Colossus of Rhodes:**
 > A tall, ancient bronze statue on top of a marble pedestal overlooking a pier
-
+![Rhodes Result](https://github.com/unl-ml-art/generative-visual-eher78/blob/master/sevenWondersResults/upscaleImages/rhodes3_out.png)
 
 - **Lighthouse of Alexandria:**
 > A tall, ancient stone and limestone lighthouse overlooking an ancient harbor
+![Lighthouse Result](https://github.com/unl-ml-art/generative-visual-eher78/blob/master/sevenWondersResults/upscaleImages/lighthouse3_out.png)
 
+Overall, I was satisfied with the results the diffusion models has generated for the images. I do believe if I was given more weeks in preparation, I could have refined the textual prompts and even experimented with other models to see the variety of images produced for replicating each ancient construction. I will say that this project gave me a glimpse into the potential of how generated reconstructions can accomplish given historical data and I really would like to revisit this project in the future for research and other experimentations on historical artifacts.
 
 ## Technical Notes
 
-Any implementation details or notes we need to repeat your work. 
+<!-- Any implementation details or notes we need to repeat your work. 
 - Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+- Does it run on some other (non-datahub) platform? (CoLab, etc.) -->
+
+I do believe all of the code is accomplishable by running on Colab. I will say that if you have access to a GPU (specifically the V100), the runtime for the Clip Guided Diffusion can decrease from 1.5 hours to 5 minutes. The other two models: CC12M and the upscaling images can take a short time to generate and access to an external GPU is not necessarly required.
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
+<!-- References to any papers, techniques, repositories you used:
 - Papers
 - Repositories
-- Blog posts
+- Blog posts -->
+
+- [Clip Guided Diffusion](https://arxiv.org/abs/2110.02711)
+- [Clip Guided Diffusion Repository](https://github.com/afiaka87/clip-guided-diffusion)
+- [CC12M Paper](https://arxiv.org/abs/2102.08981)
+- [CC12M Repository](https://github.com/google-research-datasets/conceptual-12m)
+- [Seven Ancient Wonders of the Ancient World](https://en.wikipedia.org/wiki/Seven_Wonders_of_the_Ancient_World)
