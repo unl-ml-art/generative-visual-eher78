@@ -26,15 +26,25 @@ of the result of the recreated image.
 
 ## Model/Data
 
-Briefly describe the files that are included with your repository:
+<!-- Briefly describe the files that are included with your repository:
 - trained models
-- training data (or link to training data)
+- training data (or link to training data) -->
+
+There were two main models I used for this project. 
+- CC12M Diffusion
+- CLIP-Guided Diffusion
+
+Both models involved the use of diffusion to create generated images but there are some differences. CC12M uses a dataset with 12 million image-text pairs for vision and text training. CLIP-Guided Diffusion meanwhile uses diffusion based on the CLIP text dataset to create images.
+
+I specifically chose these two models as from previous experience, they are efficent in producing outputs that fitted the textual prompts. I also experimented with other GANs such as BigGAN, StyleGAN, and BigSleepGAN and those two diffusion models worked the best from initial testing.
 
 ## Code
 
-Your code for generating your project:
+<!--Your code for generating your project:
 - Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+- Jupyter notebooks: generative_code.ipynb -->
+-[CC12M Code](https://colab.research.google.com/drive/1TBo4saFn1BCSfgXsmREFrUl3zSQFg6CC)
+-[Clip Guided Diffusion](https://colab.research.google.com/drive/1V66mUeJbXrTuQITvJunvnWVn96FEbSI3)
 
 ## Results
 
